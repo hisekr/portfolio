@@ -1,0 +1,81 @@
+const userData = {
+  githubUsername: "hisekr",
+  name: "Abhishek Roshan",
+  designation: "FullStack Developer/Engineer",
+  email: "abhishekroshan11@gmail.com",
+  phone: "+91 9521376907",
+  address: "Varanasi, Uttar pradesh, India.",
+  projects: [
+    {
+      title: "Basic text editor",
+      link: "https://github.com/hisekr/Text-Editor",
+      imgUrl: "/text-editor.png",
+    },
+    {
+      title: "NewsLetter-Signup",
+      link: "https://github.com/hisekr/Newsletter-Signup",
+      imgUrl: "/newsletter-signup.png",
+    },
+    {
+      title: "Todo-list",
+      link: "https://github.com/hisekr/Todo-List",
+      imgUrl: "/todo-list.png",
+    },
+    {
+      title: "Live Weather",
+      link: "https://github.com/hisekr/Weather-Api-Project",
+      imgUrl: "/weatherapi.png",
+    },
+    {
+      title: "React Crypto App",
+      link: "https://github.com/hisekr/React-crypto-app",
+      imgUrl: "/crypto.png",
+    },
+  ],
+  about: {
+    title: "Hey, i'm a Software developer/engineer.",
+    description: [
+      `I graduated in 2023 with my major in computer science & engineering.I learned most of my skills by googling and youtube videos.`,
+      `I have currently over 1 YOE`,
+      `I have worked with html, css, js, ts, react, vue, nextjs, nuxtjs, nodejs, postgresql.`,
+      `Also have familiarity with C++ and python for Data structures and algorithms.`,
+    ],
+  },
+
+  experience: [
+    {
+      title: "Web Developer Intern",
+      company: "The Spark Foundation",
+      year: "Sept-2023",
+      desc: "Completed MERN Projects with Dummy Data & Implemented Razorpay payment gateway",
+    },
+    {
+      title: "Software engineer trainee",
+      company: "Mountblue Technologies",
+      year: "Dec-2023 : Dec-2024",
+      desc: ` Completed intensive training in HTML, CSS, JavaScript, Node.js, React (Full Stack), and PostgreSQL,
+              Deployed to client companies in a contractual role, working on full-stack development projects,
+              Gained hands-on experience in building and maintaining web applications and following industry best practices.`,
+    },
+    {
+      title: "Full-stack Developer",
+      company: "Zyod",
+      year: "April-2024 : Dec-2024",
+      desc: ` Got deployed Here for the role of SDE-1, Fullstack developer from Mountblue technologies,
+              Designed and implemented new features that improved business operations and user experience. 
+              Worked with React, Next.js, Node.js, PostgreSQL, HTML, and CSS to develop scalable and efficient solutions.
+              collaborating with teams, Contributed to performance optimizations and seamless system enhancements.`,
+    }
+  ],
+
+  resumeUrl: "https://drive.google.com/file/d/17f6-D42EUGLXtBLE6T4bWlC0kPyN_eWu/view?usp=sharing",
+  socialLinks: {
+    
+    leetcode: "https://leetcode.com/hisek_r/",
+    twitter: "https://twitter.com/hisekr",
+    linkedin: "https://www.linkedin.com/in/abhishek-roshan-316535281/",
+    github: "https://github.com/hisekr",
+  },
+};
+
+export default userData;
