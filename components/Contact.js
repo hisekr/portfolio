@@ -32,7 +32,7 @@ export default function Contact() {
     e.preventDefault();
     
     try {
-      const response = await axios.post("https://portfolio-new-1-j95g.onrender.com/send", formData, {
+      const response = await axios.post("https://portfolio-emailserver.onrender.com/send", formData, {
         headers: {
           'Content-Type': 'application/json',
         }
