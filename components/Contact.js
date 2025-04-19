@@ -10,6 +10,7 @@ export default function Contact() {
   });
 
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const allFilled =
@@ -27,17 +28,17 @@ export default function Contact() {
     }));
   };
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    setIsLoading(true);
+
     try {
       const response = await axios.post("https://portfolio-emailserver.onrender.com/send", formData, {
         headers: {
           'Content-Type': 'application/json',
         }
       });
-      
+
       if (response.data.message) {
         alert(response.data.message);
         setFormData({ name: "", email: "", message: "" });
@@ -46,9 +47,10 @@ export default function Contact() {
       console.error("Error sending message:", error);
       const errorMsg = error.response?.data?.error || "Failed to send message. Please try again later.";
       alert(errorMsg);
+    } finally {
+      setIsLoading(false);
     }
   };
-  
 
   return (
     <section className="text-white bg-gray-900">
@@ -153,14 +155,14 @@ export default function Contact() {
 
             <button
               type="submit"
-              disabled={isButtonDisabled}
+              disabled={isButtonDisabled || isLoading}
               className={`${
-                isButtonDisabled
+                isButtonDisabled || isLoading
                   ? "bg-gray-500 cursor-not-allowed"
                   : "bg-blue-500 hover:bg-blue-600"
               } rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold`}
             >
-              Send Message
+              {isLoading ? "Sending..." : "Send Message"}
             </button>
           </form>
         </div>

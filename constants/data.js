@@ -7,9 +7,27 @@ const userData = {
   address: "Varanasi, Uttar pradesh, India.",
   projects: [
     {
+      title: "Pricing page",
+      link: "https://gitlab.com/abhishekroshan/pricing-page-html-css",
+      imgUrl: "/pricingpage.png",
+      deployedLink: "https://pricing-page-html-css.vercel.app/",
+    },
+    {
+      title: "Easy bank landing page",
+      link: "https://gitlab.com/abhishekroshan/easybank-landing-page",
+      imgUrl: "/easybanklandingpage.png",
+      deployedLink: "https://easybank-landing-page-one-gilt.vercel.app/",
+    },
+    {
       title: "Basic text editor",
       link: "https://github.com/hisekr/Text-Editor",
       imgUrl: "/text-editor.png",
+    },
+    {
+      title: "Multi step form",
+      link: "https://gitlab.com/abhishekroshan/multi-step-form",
+      imgUrl: "/multistepform.png",
+      deployedLink: "https://multi-step-form-beige-seven.vercel.app/",
     },
     {
       title: "NewsLetter-Signup",
@@ -30,6 +48,17 @@ const userData = {
       title: "React Crypto App",
       link: "https://github.com/hisekr/React-crypto-app",
       imgUrl: "/crypto.png",
+    },
+    {
+      title: "Rest Countries",
+      link: "https://gitlab.com/abhishekroshan/react-countries",
+      imgUrl: "/restcountries.png",
+      deployedLink: "https://react-countries-lovat.vercel.app/",
+    },
+    {
+      title: "Book Store",
+      link: "https://github.com/hisekr/Book-Store-MERN-CRUD-App",
+      imgUrl: "/bookstore.png",
     },
   ],
   about: {
