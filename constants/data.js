@@ -22,6 +22,7 @@ const userData = {
       title: "Basic text editor",
       link: "https://github.com/hisekr/Text-Editor",
       imgUrl: "/text-editor.png",
+      deployedLink: "https://text-editor-eosin.vercel.app/",
     },
     {
       title: "Multi step form",
@@ -38,11 +39,13 @@ const userData = {
       title: "Todo-list",
       link: "https://github.com/hisekr/Todo-List",
       imgUrl: "/todo-list.png",
+      deployedLink: "https://todo-list-hisekr.vercel.app/",
     },
     {
       title: "Live Weather",
       link: "https://github.com/hisekr/Weather-Api-Project",
       imgUrl: "/weatherapi.png",
+      deployedLink: "https://weather-api-project-phi.vercel.app/",
     },
     {
       title: "React Crypto App",
@@ -61,6 +64,12 @@ const userData = {
       link: "https://github.com/hisekr/Book-Store-MERN-CRUD-App",
       imgUrl: "/bookstore.png",
     },
+    {
+      title: "Trello",
+      link: "https://gitlab.com/abhishekroshan/fullstack-trello",
+      imgUrl: "/trello.png",
+      deployedLink: "https://trello-react-abhishek-ivory.vercel.app/",
+    },
   ],
   about: {
     title: "Hey, i'm a Software developer/engineer.",
@@ -77,7 +86,7 @@ const userData = {
       title: "Web Developer Intern",
       company: "The Spark Foundation",
       year: "Sept-2023",
-      desc: "Completed MERN Projects with Dummy Data & Implemented Razorpay payment gateway",
+      desc: "Completed MERN Project with Dummy Data & Implemented Razorpay payment gateway",
     },
     {
       title: "Software engineer trainee",
