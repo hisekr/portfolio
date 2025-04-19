@@ -48,6 +48,7 @@ const userData = {
       title: "React Crypto App",
       link: "https://github.com/hisekr/React-crypto-app",
       imgUrl: "/crypto.png",
+      deployedLink: "https://react-crypto-app-hisekr.vercel.app/",
     },
     {
       title: "Rest Countries",
