@@ -100,14 +100,14 @@ const userData = {
       title: "Full-stack Developer",
       company: "Zyod",
       year: "April-2024 : Dec-2024",
-      desc: ` Got deployed Here for the role of SDE-1, Fullstack developer from Mountblue technologies,
-              Designed and implemented new features that improved business operations and user experience. 
+      desc: ` Got deployed Here for the role of SDE-1 Fullstack developer from Mountblue technologies,
+              Designed and implemented new features for the internal ERP system. 
               Worked with React, Next.js, Node.js, PostgreSQL, HTML, and CSS to develop scalable and efficient solutions.
               collaborating with teams, Contributed to performance optimizations and seamless system enhancements.`,
     }
   ],
 
-  resumeUrl: "https://drive.google.com/file/d/1yLxea6ftzTT014rW6QtjIrZksafVZcK2/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/12FFcIq5lw9R8RQhM5dvdMkrMJAR95PIF/view?usp=sharing",
   socialLinks: {
     
     leetcode: "https://leetcode.com/hisek_r/",
